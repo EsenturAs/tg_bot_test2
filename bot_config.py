@@ -6,4 +6,4 @@ from databases.database import Database
 token = dotenv_values(".env")["BOT_TOKEN"]
 bot = Bot(token=token)
 dp = Dispatcher()
-database = Database("databases/database.db")
+database = Database("databases/db.sqlite3")
